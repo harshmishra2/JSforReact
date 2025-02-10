@@ -12,8 +12,8 @@ function constKeyword(){
 
     // console.log(x);
     const book = {title: "Hello world"};
-    book.title = "Hello world 2";                   //as an object this is allowed, you can change the keys but can't assign a new value 
-    book = {title: "Deathy Hallow"};
+    book.title = "Hello world 2";                   //as an object this is ok, change the keys but can't assign a new values
+    book = {title: "Deathy Hallow"};                //not allowed, will throw error
 
     x = 30; 
     console.log(x);
